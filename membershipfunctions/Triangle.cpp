@@ -1,7 +1,7 @@
 #include "Triangle.h"
 
-Triangle::Triangle(float center, float leftLegLenth, float rightLegLength)
-    :LineSegments(NULL,0)
+Triangle::Triangle(int id, float center, float leftLegLenth, float rightLegLength)
+    :LineSegments(id,NULL,0)
 {
     this->center=0;
     this->leftLegLenth=0;

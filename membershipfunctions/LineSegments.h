@@ -14,7 +14,7 @@ protected:
     Point * segmentPoints;
     int segmentPointCount;
 public:
-    LineSegments(Point * segmentPoints, int segmentPointCount);
+    LineSegments(int id, Point * segmentPoints, int segmentPointCount);
     ~LineSegments();
     float f(float x);
 };

@@ -1,6 +1,7 @@
 
 add_executable(Fuzzelig
     main.cpp
-    LineSegments.cpp
-    Triangle.cpp
+    membershipfunctions/LineSegments.cpp
+    membershipfunctions/Triangle.cpp
+    InputDimension.cpp
 )

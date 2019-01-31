@@ -1,6 +1,8 @@
 #include "LineSegments.h"
 
-LineSegments::LineSegments(Point * segmentPoints, int segmentPointCount){
+LineSegments::LineSegments(int id, Point * segmentPoints, int segmentPointCount)
+    :MembershipFunction(id)
+{
     this->segmentPoints = segmentPoints;
     this->segmentPointCount = segmentPointCount;
 }

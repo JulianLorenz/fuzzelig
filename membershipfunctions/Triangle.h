@@ -10,7 +10,7 @@ private:
     float leftLegLenth;
 
 public:
-    Triangle(float centerPeek, float leftLegLenth, float rightLegLength);
+    Triangle(int id, float centerPeek, float leftLegLenth, float rightLegLength);
 };
 
 #endif
